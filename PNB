@@ -1,46 +1,4 @@
-# PNB
-bot = getBot()
-world = bot:getWorld()
-inventory = bot:getInventory()
-
-storage = "" --TAKE BLOCK World Name
-storageid = "" --DOOR ID
-
-pnbdunya = "" --PNB World Name
-pnddunyaid = "" --PNB World Door ID
-
-StorageSeed = "" --DROP SEED World Name
-StorageSeedID = "" --DOOR ID
-
-PackDropWorld = "" --DROP PACK World Name
-PackDropWorldID = "" --DOOR ID
-
---pnb bot pos x,y to check (x,y) WRENCH YOUR NAME IN REAL GROWTOPIA APP
-BotPx = 4
-BotPy = 23
-
-packname = "deluxe_grow_spray" --if you write wrong you will get ercon
-packID = 1778 --if you write wrong you will get ercon
-pricepack = 900 --if you write wrong you will get ercon
-packDropCount = 4 --when drop pack example : if you type 4, the bot's item will drop when it has 5 pieces
-
-BlockID = 4584
-SeedID = BlockID+1 --do not change
-delaybreak = 200
-delayplace = 200
-
-GautOn = "yes"
-amound = 200 --take seed and block count MAX 200!!!
-
-MoveDirection = -1 -- 1 = Right | -1 = Left
-
-trashList = {1406,9346,5040,5042,5044,5032,5034,5036,5038,5024,5026,5028,7162,7164}
-WhenTrashCount = 50
-
-Webhooks = ""
-YourDiscordid = ""
-
---------------------------------------------------------------------
+# GrowtopiaScripts
 storage = string.upper(storage)
 storageid = string.upper(storageid)
 pnbdunya = string.upper(pnbdunya)
